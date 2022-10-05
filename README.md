@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Christio02
 - 👀 I’m interested in everything! Especially coding!
-- 🌱 I’m currently learning python, HTML, CSS and JavaScript
+- 🌱 I’m currently learning Python, HTML, CSS and JavaScript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
