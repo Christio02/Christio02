@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Christio02
-- 👀 I’m interested in everything! Especially coding!
+- 👀 I’m interested in everything! Especially coding, astronomy and science!
 - 🌱 I’m currently learning Python, HTML, CSS and JavaScript
 - 💞️ I’m looking to collaborate on anything
 - 📫 How to reach me:
