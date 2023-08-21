@@ -1,9 +1,10 @@
 - 👋 Hi, I’m @Christio02
 - 👀 I’m interested in everything! Especially coding, astronomy and science!
-- 🌱 I’m currently learning Java and networking!
+- 🌱 I’m currently learning C# and unity, also algortihms and datastructures
 - 💞️ I’m looking to collaborate on anything, maybe game making? I want to try making games in Unity :D
 - 📫 How to reach me:
--   twitter: christio0221
+-   christopher.hoee@gmail.com
+-   2nd year student at NTNU in Trondheim
 
 <!---
 Christio02/Christio02 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
