@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on my bachelor thesis<br>👯 I’m looking to collaborate on anything really<br>🌱 I’m currently learning Graphql and Apollo<br>💬 Ask me about Astronomy, Biology and Cryptography
+🔭 I’m currently working on my bachelor thesis<br>👯 I’m looking to collaborate on anything really<br>🌱 I’m currently learning .Net and C#<br>💬 Ask me about Astronomy, Biology and Cryptography
 
 
 ## 🌐 Socials:
