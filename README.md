@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working at Cogito NTNU<br>👯 I’m looking to collaborate on anything really<br>🌱 I’m currently learning AI techniques<br>💬 Ask me about Astronomy, Biology and Coding <3
+🔭 I’m currently working at Cogito NTNU and Hoggorm Design A/S <br>👯 I’m looking to collaborate on anything really<br>🌱 I’m currently learning AI and algorithms<br>💬 Ask me about Astronomy, Biology and Coding <3
 
 
 ## 🌐 Socials:
