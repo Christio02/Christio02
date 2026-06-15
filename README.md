@@ -19,7 +19,7 @@ Currently exploring: AI/ML, algorithm design, and how to make the web feel fast 
 
 ## Currently
 
-🔭 Building production web apps at **Hoggorm Design** and continuing the bachelor project.
+🔭 Building production web apps at **Hoggorm Design** and summer internship in ML at Kongsberg
 🎓 Completed B.Sc in Informatics and switched to M.Sc. in Computer Science (sivilingeniør) at NTNU
 🌱 Deep-diving into AI, algorithms, and system design
 
