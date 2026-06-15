@@ -13,15 +13,15 @@ Currently exploring: AI/ML, algorithm design, and how to make the web feel fast 
 
 ## What I work with
 
-- **Day-to-day:** React · TypeScript · TanStack · Tailwind · .NET · C#
-- **Backend & data:** Spring Boot · Kotlin · GraphQL · PostgreSQL · MongoDB · Docker
-- **Exploring:** Python · ML/AI · Distributed systems
+**Day-to-day:** React · TypeScript · TanStack · Tailwind · .NET · C#
+**Backend & data:** Spring Boot · Kotlin · GraphQL · PostgreSQL · MongoDB · Docker
+**Exploring:** Python · ML/AI · Distributed systems
 
 ## Currently
 
-🔭 Building production web apps at **Hoggorm Design** and summer internship in ML at Kongsberg
-🎓 Completed B.Sc in Informatics and switched to M.Sc. in Computer Science (sivilingeniør) at NTNU
-🌱 Deep-diving into AI, algorithms, and system design
+- 🔭 Building production web apps at **Hoggorm Design** and summer internship in ML at Kongsberg
+- 🎓 Completed B.Sc in Informatics and switched to M.Sc. in Computer Science (sivilingeniør) at NTNU
+- 🌱 Deep-diving into AI, algorithms, and system design
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/christopher_hoee/?locale=en-GB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/christopher-h%C3%B8e-3b7924257/) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/19820692/christopher-h%c3%b8e) 
