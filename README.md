@@ -13,9 +13,9 @@ Currently exploring: AI/ML, algorithm design, and how to make the web feel fast 
 
 ## What I work with
 
-**Day-to-day:** React · TypeScript · TanStack · Tailwind · .NET · C#
-**Backend & data:** Spring Boot · Kotlin · GraphQL · PostgreSQL · MongoDB · Docker
-**Exploring:** Python · ML/AI · Distributed systems
+- **Day-to-day:** React · TypeScript · TanStack · Tailwind · .NET · C#
+- **Backend & data:** Spring Boot · Kotlin · GraphQL · PostgreSQL · MongoDB · Docker
+- **Exploring:** Python · ML/AI · Distributed systems
 
 ## Currently
 
