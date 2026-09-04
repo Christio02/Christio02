@@ -7,9 +7,9 @@ M.Sc. Computer Science @ NTNU · Software Engineer @ Hoggorm Design
 I'm a developer based in Trondheim, Norway, with a background in full-stack web development
 and a growing interest in distributed systems, machine learning, and data mining.
 Outside of code, I'm fascinated by astronomy and biology. I like understanding
-how complex systems work, whether that's a star cluster, a neural network, or a React render tree.
+how complex systems work, whether that's a star cluster, a machine learning algorithm, or a database query.
 
-Currently exploring: AI/ML, algorithm design, and how to make the web feel fast and intentional.
+Currently exploring: AI/ML, information retrieval, and how to make the web feel fast and intentional.
 
 ## What I work with
 
