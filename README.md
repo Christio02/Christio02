@@ -1,45 +1,88 @@
-# Christopher Gulbrandsen Høe
+<!-- Header: animated wave banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b3a,100:7aa2f7&height=200&section=header&text=Christopher%20Gulbrandsen%20H%C3%B8e&fontSize=38&fontColor=c0caf5&fontAlignY=36&desc=M.Sc.%20Computer%20Science%20%40%20NTNU%20%C2%B7%20Co-founder%20%40%20Hoggorm%20Design&descSize=16&descAlignY=58&animation=fadeIn" width="100%" />
 
-M.Sc. Computer Science @ NTNU · Software Engineer @ Hoggorm Design
+<!-- Animated typing line -->
+<p align="center">
+  <a href="https://chrishoee.dev">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Full-stack+developer+from+Trondheim+%F0%9F%87%B3%F0%9F%87%B4;Building+production+web+apps+at+Hoggorm+Design;Into+ML%2C+information+retrieval+%26+distributed+systems;Fascinated+by+star+clusters+and+database+queries+%F0%9F%94%AD" alt="Typing SVG" />
+  </a>
+</p>
 
-## About me
+<p align="center">
+  <a href="https://chrishoee.dev"><img src="https://img.shields.io/badge/chrishoee.dev-1a1b26?style=for-the-badge&logo=googlechrome&logoColor=7aa2f7" /></a>
+  <a href="https://www.linkedin.com/in/christopher-h%C3%B8e-3b7924257/"><img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7aa2f7" /></a>
+  <a href="https://stackoverflow.com/users/19820692/christopher-h%c3%b8e"><img src="https://img.shields.io/badge/Stack_Overflow-1a1b26?style=for-the-badge&logo=stackoverflow&logoColor=ff9e64" /></a>
+  <a href="https://www.instagram.com/christopher_hoee/"><img src="https://img.shields.io/badge/Instagram-1a1b26?style=for-the-badge&logo=instagram&logoColor=f7768e" /></a>
+  <img src="https://komarev.com/ghpvc/?username=Christio02&style=for-the-badge&color=7aa2f7&label=PROFILE+VIEWS" />
+</p>
 
-I'm a developer based in Trondheim, Norway, with a background in full-stack web development
-and a growing interest in distributed systems, machine learning, and data mining.
-Outside of code, I'm fascinated by astronomy and biology. I like understanding
-how complex systems work, whether that's a star cluster, a machine learning algorithm, or a database query.
+---
 
-Currently exploring: AI/ML, information retrieval, and how to make the web feel fast and intentional.
+### 🛰️ About me
 
-## What I work with
+```ts
+const christopher = {
+  location:   "Trondheim, Norway",
+  studying:   "M.Sc. Computer Science @ NTNU (2025 – 2028)",
+  building:   "Production websites for small businesses @ Hoggorm Design (co-founder)",
+  teaching:   "Learning Assistant — Distributed Data, Web Development & Databases",
+  recently:   "ML / computer-vision internship @ Kongsberg Defence & Aerospace",
+  exploring:  ["AI/ML", "Information retrieval", "Distributed systems"],
+  offline:    ["Astronomy 🔭", "Biology 🧬", "Running 🏃"],
+};
+```
 
-- **Frontend:** React · TypeScript · TanStack · Tailwind  
-- **Backend & data:** · PostgreSQL · MongoDB · Docker · .NET · C#
-- **Exploring:** Python · ML/AI · Distributed systems
+I like understanding how complex systems work — whether that's a star cluster, an anomaly-detection model, or a slow database query — and making the web feel **fast and intentional**.
 
-## Currently
+---
 
-- 🔭 Building production web apps at **Hoggorm Design** and summer internship in ML at Kongsberg
-- 🎓 Completed B.Sc in Informatics and switched to M.Sc. in Computer Science (sivilingeniør) at NTNU
-- 🌱 Deep-diving into AI, algorithms, and system design
+### 🧰 Tech stack
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/christopher_hoee/?locale=en-GB) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/christopher-h%C3%B8e-3b7924257/) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/19820692/christopher-h%c3%b8e) 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,html,css,graphql,apollo&perline=8&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=python,go,cs,dotnet,java,kotlin,postgres,mongodb&perline=8&theme=dark" /><br/>
+  <img src="https://skillicons.dev/icons?i=docker,azure,firebase,vercel,netlify,git,github,gitlab,figma,unity,latex&perline=11&theme=dark" />
+</p>
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![Apollo-GraphQL](https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Christio02&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Christio02&theme=tokyonight&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Christio02&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+---
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Christio02&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
+### 🚀 Featured projects
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <a href="https://github.com/Christio02/exo-worlds"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Christio02&repo=exo-worlds&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/Christio02/portfolio"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Christio02&repo=portfolio&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/Christio02/dungeons-and-developers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Christio02&repo=dungeons-and-developers&theme=tokyonight&hide_border=true" /></a>
+  <a href="https://github.com/Christio02/flappy"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Christio02&repo=flappy&theme=tokyonight&hide_border=true" /></a>
+</p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Christio02&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
+---
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 📊 GitHub stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Christio02&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Christio02&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Christio02&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Christio02&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+---
+
+### 🐍 Contributions, eaten
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Christio02/Christio02/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Christio02/Christio02/output/github-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/Christio02/Christio02/output/github-snake.svg" />
+  </picture>
+</p>
+
+<!-- Footer wave -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:1a1b3a,100:0d1117&height=110&section=footer" width="100%" />
