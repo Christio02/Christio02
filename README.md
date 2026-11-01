@@ -69,7 +69,7 @@ I like understanding how complex systems work — whether that's a star cluster,
 </p>
 
 <p align="center">
-  <img src="./metrics.languages.svg" alt="Most used languages" />
+  <img src="./metrics.languages.svg" alt="Most used languages" /><br/>
   <img src="./metrics.calendar.svg" alt="Contribution calendar" />
 </p>
 
