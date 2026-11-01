@@ -1,9 +1,18 @@
+# Save as .github/workflows/profile-assets.yml in the Christio02/Christio02 repo.
+# Generates the stats/language/calendar SVGs (committed to main) and the
+# contribution snake (pushed to the `output` branch). Nothing depends on a
+# third-party server at view time, so the images can't go dark.
+#
+# One-time setup: create a classic personal access token with the `read:user`
+# scope (add `repo` if you want private-repo activity counted), then add it in
+# this repo under Settings → Secrets and variables → Actions as METRICS_TOKEN.
+
 name: Profile assets
 
 on:
   schedule:
-    - cron: "17 3 * * *" # daily, ~04:17 Oslo time
-  workflow_dispatch: # run manually from the Actions tab
+    - cron: "17 3 * * *"   # daily, ~04:17 Oslo time
+  workflow_dispatch:         # run manually from the Actions tab
   push:
     branches: [main]
     paths: [".github/workflows/profile-assets.yml"]
@@ -35,11 +44,10 @@ jobs:
           filename: metrics.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          config_display: columns
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_languages_ignored: html, css, shaderlab, hlsl, scss
+          plugin_languages_ignored: html, css, shaderlab, hlsl, scss, jupyter notebook
 
       - name: Contribution calendar
         uses: lowlighter/metrics@latest
@@ -47,7 +55,6 @@ jobs:
           filename: metrics.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          config_display: columns
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
