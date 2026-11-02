@@ -1,18 +1,17 @@
-# Save as .github/workflows/profile-assets.yml in the Christio02/Christio02 repo.
-# Generates the stats/language/calendar SVGs (committed to main) and the
-# contribution snake (pushed to the `output` branch). Nothing depends on a
-# third-party server at view time, so the images can't go dark.
+# Save as .github/workflows/profile-assets.yml in the Christio02/Christio02 repo
+# (replaces the previous version). Renders github-readme-stats cards inside
+# GitHub Actions and commits them to profile/, so nothing depends on the
+# paused public Vercel instance. Also builds the contribution snake.
 #
-# One-time setup: create a classic personal access token with the `read:user`
-# scope (add `repo` if you want private-repo activity counted), then add it in
-# this repo under Settings → Secrets and variables → Actions as METRICS_TOKEN.
+# Uses the METRICS_TOKEN secret you already created (classic PAT, read:user;
+# add the `repo` scope if you want private contributions counted).
 
 name: Profile assets
 
 on:
   schedule:
     - cron: "17 3 * * *"   # daily, ~04:17 Oslo time
-  workflow_dispatch:         # run manually from the Actions tab
+  workflow_dispatch:
   push:
     branches: [main]
     paths: [".github/workflows/profile-assets.yml"]
@@ -24,41 +23,75 @@ concurrency:
   group: profile-assets
   cancel-in-progress: false
 
+env:
+  THEME: theme=tokyonight&hide_border=true
+
 jobs:
-  metrics:
+  cards:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
       - name: Stats card
-        uses: lowlighter/metrics@latest
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.stats.svg
+          card: stats
+          options: username=Christio02&show_icons=true&include_all_commits=true&count_private=true&${{ env.THEME }}
+          path: profile/stats.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories
-          config_timezone: Europe/Oslo
-          config_display: regular
 
-      - name: Languages
-        uses: lowlighter/metrics@latest
+      - name: Top languages card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.languages.svg
+          card: top-langs
+          options: username=Christio02&layout=compact&langs_count=8&hide=jupyter%20notebook,html,css,scss,shaderlab,hlsl&${{ env.THEME }}
+          path: profile/top-langs.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_padding: 0, 30 + 11%
-          plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_limit: 8
-          plugin_languages_ignored: html, css, shaderlab, hlsl, scss, jupyter notebook
 
-      - name: Contribution calendar
-        uses: lowlighter/metrics@latest
+      - name: Pin — exo-worlds
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          filename: metrics.calendar.svg
+          card: pin
+          options: username=Christio02&repo=exo-worlds&${{ env.THEME }}
+          path: profile/pin-exo-worlds.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          config_padding: 0, 60 + 11%
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+
+      - name: Pin — portfolio
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Christio02&repo=portfolio&${{ env.THEME }}
+          path: profile/pin-portfolio.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Pin — dungeons-and-developers
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Christio02&repo=dungeons-and-developers&${{ env.THEME }}
+          path: profile/pin-dungeons-and-developers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Pin — flappy
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=Christio02&repo=flappy&${{ env.THEME }}
+          path: profile/pin-flappy.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+
+      - name: Remove old metrics output
+        run: git rm -q --ignore-unmatch metrics.*.svg
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile
+          git commit -m "Update README cards" || exit 0
+          git pull --rebase
+          git push
 
   snake:
     runs-on: ubuntu-latest
